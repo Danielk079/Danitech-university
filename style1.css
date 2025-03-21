@@ -1,0 +1,704 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.tob-marquee{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 100%;
+    margin: 0px auto;
+}
+.news-line{
+    background-color: #3E282BFF;
+    padding: 5px 0px;
+    border-bottom: 1px solid #A37B73FF;
+} 
+.news{
+    background: #3E282BFF;
+    padding: 5px 15px;
+    font-size: 18px;
+    color: #F0F0F0;
+    
+    
+}
+.headquote{
+    font-size: 18px;
+    color: whitesmoke;
+    width: 80%;
+}
+
+.container2{
+    padding: 0% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #A37B73FF;
+
+}
+.logo img{
+    width: 120px;
+    
+    
+    
+}
+.menu{
+flex: 1;
+text-align: right;
+padding-bottom: 30px;
+}
+.menu li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+
+}
+.menu li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+}
+.menu li a:hover{
+    border-bottom: 3px solid #27e340;
+    transition: 0.35s;
+}
+.menu li a:active{
+    border-bottom: 3px solid #27e340;
+    color: #13d8df;
+}
+
+
+.third{
+    border-bottom: 3px solid greenyellow;
+}
+.third img{
+    width: 100%;
+    height: 580px;
+}
+.container3{
+    width: 50%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    backdrop-filter: blur(px);
+}
+
+.container3:hover{
+background-color:#12343b ;
+}
+.third h1{
+    color: rgb(253, 12, 44);
+    font-size: 50px;
+}
+.third p{
+    margin: 10px 0 40px;
+    font-size: 23px;
+    color: #62e915;
+    
+    
+}
+.more{
+    display: inline-block;
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.more:hover{
+    border: 1px solid #ff921c;
+    background: #f44336;
+    transition: 1s;
+
+}
+.forth{
+    margin: 50px;
+    background: white;
+    
+    
+    
+}
+.container4{
+    width: 33%;
+    float: left;
+}
+.text-up{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 450px;
+    margin-bottom: 10px;
+    background: #F0F0F0;
+}
+.latest-news{
+    background:#a0d2eb;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #f44336;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #f44336;
+    padding-top:15px ;
+    padding-left: 15px;
+    color: aliceblue;
+    
+}
+.news-text{
+    height: 350px;
+}
+.news-text li{
+    list-style: circle;
+    line-height: 40px;
+}
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 450px;
+    margin-bottom: 10px;
+    background: #F0F0F0;
+    
+}
+.upcoming-event-list{
+    padding: 0px;
+    list-style: none;
+}
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15Px;
+}
+.event-date{
+ background: #a0d2eb;
+ width: 65px;
+ float: left;
+ text-align: center;
+ font-size: 18px;
+ color: #df1313;
+ padding: 7px;
+ margin-left: 6px;
+}
+.notice-board{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 450px;
+    margin-bottom: 10px;
+    background: #F0F0F0;
+    
+}
+.notice-board-list{
+    padding: 0px;
+    line-height: 36px;
+}
+.notice-board-list li{
+     width: 100%;
+     float: left;
+     margin-bottom: 5%;
+}
+
+.footer{
+     background: #3E282BFF;
+     padding: 50px 0px;
+     border-top: px solid #3E282BFF;
+     margin-top: 550px;
+     height: 180px;
+}
+
+
+.quick-link-heading{
+     margin-bottom: 10px;
+     color: #13d8df;
+     font-size: 18px;
+     font-weight: bold;
+}
+.quick-link-menu{
+     list-style: none;
+     padding-left: 10px;
+}
+.quick-link-menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 2.5;
+    font-size: 15px;
+}
+.container5{
+    background: #3E282BFF;
+     width: 33%;
+     float: left;
+}
+.get-in-touch li{
+    color: whitesmoke;
+    line-height: 2.5;
+}
+.get-in-touch li a{
+    color: #13d8df;
+    text-decoration: none;
+}
+.down-most{
+    
+    background: #000000;
+    color: #1ddf13;
+    text-align: center;
+}
+
+
+/* about us page*/
+
+
+.outer{
+    padding: 30px 30px;
+    text-align: center;
+    background: #A37B73FF;
+}
+.inner{
+   margin-top: 2%;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+
+}
+.objectives{
+    width: 33%;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background: #1ddf13;
+}
+.objectives p{
+    text-align: center;
+}
+.major-campus{
+    margin-top: 4%;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   border-bottom: 4px solid #773695;
+   margin-bottom: 2px;
+}
+.campus{
+    padding: 20px 12px;
+}
+.campus img{
+    width: 400px;
+    height: 400px;
+}
+.campus h3{
+    text-align: center;
+}
+.about-footer{
+    background: #3E282BFF;
+     padding: 50px 0px;
+     border-top: 1px solid #3E282BFF;
+     margin-top: 1px;
+     height: 180px;
+}
+
+/* department css */
+
+
+.major-department{
+    margin: 4px;
+    background: white;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2px;
+ }
+ 
+    
+
+.minor-department{
+    width: 100%;
+    display: flex;
+    margin: 4px;
+    background: white;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+.department{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 300px;
+    margin-bottom: 10px;
+    background: #eba0da;
+    
+    
+}
+.department-header{
+    background:#a0ebc4;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #f44336;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #f44336;
+    padding-top:15px ;
+    padding-left: 15px;
+    color: #ca2626;
+    
+}
+.courses h4{
+    color: #207de6;
+    font-size: 20px;
+    text-align: justify;
+}
+.courses li{
+    color: black;
+    line-height: 1.8;
+}
+
+
+/* our services css*/
+
+.outer-service{
+    padding: 30px 30px;
+    text-align: center;
+    background: #cef436;
+}
+.inner-service{
+   margin-top: 2%;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+
+}
+.objectives-service{
+    width: 33%;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    background: #13d8df;
+}
+.objectives-service p{
+    text-align: center;
+}
+.major-services{
+    margin-top: 0%;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   border-bottom: 4px solid #773695;
+   margin-bottom: 2px;
+   background: #A37B73FF;
+}
+.header-service{
+    text-align: center;
+    margin-top: 10px;
+}
+.services{
+    padding: 20px 12px;
+}
+.services img{
+    width: 280px;
+    height: 400px;
+}
+.services h3{
+    text-align: center;
+    color: #df1313;
+    line-height: 2.5;
+}
+.services p{
+    text-align: center;
+    
+    color: whitesmoke;
+}
+
+
+/* contact us page */
+
+.contact-section{
+    width: 100%;
+    margin: auto;
+    background-image: url(DANITECH-IMAGES/spiderweb.jpg);
+}
+.contact-container{
+    display: flex;
+    width: 95%;
+    margin-top: 30px;
+}
+
+.header-part h3{
+    font-size: 22px;
+    text-align: center;
+    color: #13d8df;
+}
+.header-part p{
+    font-size: 18px;
+    text-align: center;
+    color: #1ddf13;
+}
+.information{
+    border: 1px solid bisque;
+    background-color: whitesmoke;
+    width: 450px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 50%;
+    
+    
+}
+.information:hover{
+    background-color: #46211A;
+    transition: 1.5s;
+   
+}
+.text{
+    text-align: center;
+    font-size: larger
+}
+.text:hover{
+    color: white;
+    transition: 1s;
+}
+.form-part{
+    width:100% ;
+    margin-right: 2px;
+    border: none;
+}
+.label-same{
+color: #15e7c8;
+} 
+    
+.contact-radio{
+ background-color: whitesmoke;
+ padding: 15px ;
+ width: 150px;
+
+ } 
+
+
+.text-input{
+width: 100%;
+padding: 15px;
+margin-bottom: 10px;
+background-color: whitesmoke;
+border: 1px solid black;
+
+}
+.text-input:hover{
+    border: 2px solid rgb(61, 248, 73);
+    transition: 0.35s;
+    background-color: #46211A;
+    
+}
+form h4{
+    text-align: center;
+    font-size: 25px;
+    color: #207de6;
+}
+.form-button{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    background-color: #37e50cd2;
+    border: none;
+    margin-left: 300px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+.form-button:hover{
+background-color: #46211A;
+transition: 0.35s;
+color: white;
+}
+
+/* Registration form */
+.register-body{
+    background: url(DANITECH-IMAGES/bridge-4546141_1280.jpg);
+    background-size: cover;
+    
+    
+}
+.registration-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+   /* background-color: #13d8df;*/
+   background: transparent;
+   backdrop-filter:blur(20px);
+   border: 2px solid whitesmoke;
+   border-radius: 20px;
+  
+}
+.registration-form h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: black;
+    margin: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+.label-part{
+    font-size: 20px;
+    margin: 15px 0;
+    color: black;
+    font-weight: bold;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 12px 20px;
+    width: 95%;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 2px solid  #4CAF50;
+}
+.register-button{
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+}
+.input-radio{
+    width: 35%;
+    display: inline-flex;
+    margin-right: 5px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.shift-login{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.shift-login a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.registration-form input:hover{
+     background-color: #46211A;
+     color: whitesmoke;
+     transition: 0.35s;
+     border: 2px solid greenyellow;
+}
+.register-button:hover{
+    background-color: #46211A;
+    color: whitesmoke;
+    transition: 0.35s;
+    opacity: 0.7;
+    border: 2px solid greenyellow;
+}
+.msg{
+    font-size: 20px;
+    text-align: center;
+    color: #f00d0d;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+
+/* LOGIN FORM*/
+    .form-body{
+    
+    background-image: url(DANITECH-IMAGES/bridge-4546141_1280.jpg);
+    }
+    .login-form{
+    border: 3px solid #f1f1f1;
+   /* background-color: #a0d2eb;*/
+   background: transparent;
+   backdrop-filter: blur(20px);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    }
+    .login-form h1{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .form-container{
+    padding: 25px;
+    
+    }
+    .login-label{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .common-input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius: 15px;
+    }
+    .common-input:hover{
+    background-color: #46211A;
+    transition: 0.35s;
+    color: white;
+    }
+    .submit-button{
+    background-color: #4CAF50;
+    width: 100%;
+    color: black;
+    padding: 13px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    }
+    .submit-button:hover{
+     opacity: 0.7; 
+     background-color: #46211A;  
+     color: whitesmoke;
+     transition: 0.35s;
+    }
+    
+    .shift-login2{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .shift-login2 a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .shift-login3{
+        display: inline;
+        margin-left: 200px;
+    }
+    .shift-login3 a{
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
